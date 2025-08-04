@@ -39,23 +39,25 @@ This is a **AI-powered retirement planning advisor**. Built using LangChain, Str
 ```bash
 git clone https://github.com/yourusername/financial-planning-agent.git
 cd financial-planning-agent
-
+```
 ### 2. Set Up Python Environment
-
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 ### Run Ollama with Mistral
+```bash
 ollama run mistral
-
+```
 ### Launch the StreamLit App
+```bash
 streamlit run finance_assistant/app.py
-
-Running Tests
-
+```
+### To run tests
+```bash
 pytest tests/test_formulas.py
-
+```
 Folder Structure
 ├── __pycache__/               # Python bytecode cache
 ├── advisor_agent.py          # LangChain-based financial advisor logic
