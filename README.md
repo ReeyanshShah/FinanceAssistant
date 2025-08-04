@@ -59,10 +59,11 @@ streamlit run finance_assistant/app.py
 pytest tests/test_formulas.py
 ```
 Folder Structure
-├── advisor_agent.py          # LangChain-based financial advisor logic
-├── app.py                    # Streamlit app launcher
-├── formulas.py               # Financial formulas used by the advisor
-├── ui_streamlit.py           # Streamlit UI components and layout
-├── test_formulas.py          # Unit tests for financial formulas (pytest-compatible)
-├── requirements.txt          # Project dependencies
-└── README.md                 # Documentation and usage instructions
+.
+├── advisor_agent.py        # LangChain-based financial advisor logic
+├── app.py                  # Main Streamlit app
+├── formulas.py             # Core financial calculation functions
+├── ui_streamlit.py         # Streamlit layout and UI components
+├── test_formulas.py        # Unit tests using pytest
+├── requirements.txt        # Required Python packages
+└── README.md               # Project documentation
