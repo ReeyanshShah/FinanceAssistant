@@ -58,12 +58,4 @@ streamlit run finance_assistant/app.py
 ```bash
 pytest tests/test_formulas.py
 ```
-Folder Structure
-.
-├── advisor_agent.py        # LangChain-based financial advisor logic
-├── app.py                  # Main Streamlit app
-├── formulas.py             # Core financial calculation functions
-├── ui_streamlit.py         # Streamlit layout and UI components
-├── test_formulas.py        # Unit tests using pytest
-├── requirements.txt        # Required Python packages
-└── README.md               # Project documentation
+<pre><code>## 📁 Project Structure ``` . ├── advisor_agent.py # LangChain-based financial advisor logic ├── app.py # Main Streamlit app ├── formulas.py # Core financial calculation functions ├── ui_streamlit.py # Streamlit layout and UI components ├── test_formulas.py # Unit tests using pytest ├── requirements.txt # Required Python packages └── README.md # Project documentation ``` </code></pre>
