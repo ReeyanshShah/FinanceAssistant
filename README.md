@@ -59,7 +59,6 @@ streamlit run finance_assistant/app.py
 pytest tests/test_formulas.py
 ```
 Folder Structure
-├── __pycache__/               # Python bytecode cache
 ├── advisor_agent.py          # LangChain-based financial advisor logic
 ├── app.py                    # Streamlit app launcher
 ├── formulas.py               # Financial formulas used by the advisor
